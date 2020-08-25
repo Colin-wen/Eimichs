@@ -1,0 +1,1 @@
+"use strict";for(var ul=pro.getElementsByClassName("list_O")[0],lis=ul.getElementsByTagName("li"),divs=pro.getElementsByClassName("change"),i=0;i<lis.length;i++)lis[i].onclick=function(){for(var s=0;s<lis.length;s++)lis[s].className="",divs[s].className="change";this.className="active";var e=this.getAttribute("wy");divs[e].className="change active"};

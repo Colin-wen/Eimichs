@@ -1,0 +1,1 @@
+"use strict";var banner=document.getElementById("banner"),imgs=banner.getElementsByTagName("img"),count=0;setInterval(function(){3==++count&&(count=0);for(var e=0;e<imgs.length;e++)imgs[e].className="";imgs[count].className="active"},3e3);
